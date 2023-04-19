@@ -43,6 +43,6 @@ public class Date {
     }
 
     public void displayDate(){
-        System.out.printf("%d/%d/%d%n",day,month,year);;
+        System.out.printf("%02d/%02d/%04d%n",day,month,year);;
     }
 }

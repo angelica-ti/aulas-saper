@@ -2,6 +2,7 @@ public class DateTest {
     public static void main(String[] args){
         Date birthday = new Date(3,3,1997);
 
+        birthday.displayDate();
         System.out.println("Apresentando informações do objeto Date:");
         System.out.printf("Dia: %d%n", birthday.getDay());
         System.out.printf("Mês: %d%n", birthday.getMonth());
