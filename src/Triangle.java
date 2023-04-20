@@ -6,9 +6,9 @@ public class Triangle {
 
         System.out.println("Digite o tamanho do 1° lado: ");
         double side1 = input.nextDouble();
-        System.out.println("Digite o tamanho do 1° lado: ");
+        System.out.println("Digite o tamanho do 2° lado: ");
         double side2 = input.nextDouble();
-        System.out.println("Digite o tamanho do 1° lado: ");
+        System.out.println("Digite o tamanho do 3° lado: ");
         double side3 = input.nextDouble();
 
         if(side1 < (side2+side3) && side2 < (side1+side3) && side3 < (side1+side2)){
