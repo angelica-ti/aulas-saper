@@ -5,11 +5,12 @@ public class CalculateAverage {
         Scanner inputStrings = new Scanner(System.in);
         Scanner input = new Scanner(System.in);
 
-        double n1,n2;
-        int i = 0;
+        double n1, n2;
 
         System.out.println("Digite a quantidade de alunos:");
         int n_students = input.nextInt();
+
+        int i = 0;
 
         while(i<= n_students){
             System.out.printf("---Notas do aluno %d---%n",i+1);
