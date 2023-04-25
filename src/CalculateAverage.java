@@ -12,7 +12,7 @@ public class CalculateAverage {
 
         int i = 0;
 
-        while(i<= n_students){
+        while(i < n_students){
             System.out.printf("---Notas do aluno %d---%n",i+1);
             System.out.print("Nome do aluno: ");
             String name = inputStrings.nextLine();
