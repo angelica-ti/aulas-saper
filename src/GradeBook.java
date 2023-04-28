@@ -103,6 +103,15 @@ public class GradeBook {
                         "\nMédia das Notas: "+average +
                         "\nDistribuição das Notas: "+ Arrays.toString(distribution);
 
+        char interval = ')';
+        for(int i = 0; i < distribution.length; i++){
+            if(i == 9){
+                interval = ']';
+            }
+            report += String.format("\nFrequência de notas no intervalo [%d, %d%c: %.2f%%", i, i+1, interval, distribution[i]*100);
+
+        }
+
         return report;
     }
 }

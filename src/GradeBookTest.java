@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class GradeBookTest {
     public static void main(String[] args){
-        GradeBook gradeBook = new GradeBook("Lógica de Programação", new double[] {8.0, 5.0, 10.0, 9.5, 2.4, 7.3, 6.2, 6.8, 8.7, 8.9});
+        GradeBook gradeBook = new GradeBook("Lógica de Programação", new double[] {8.0, 0.5, 10.0, 9.5, 2.4, 7.3, 6.2, 6.8, 8.7, 8.9});
 
         //Retornando todas as notas
         System.out.println("Retornando todas as notas: ");
